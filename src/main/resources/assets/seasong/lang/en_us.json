@@ -1,0 +1,13 @@
+{
+  "itemGroup.seasong": "Example Mod Tab",
+  "block.seasong.example_block": "Example Block",
+  "item.seasong.example_item": "Example Item",
+
+  "seasong.configuration.title": "Seasong Configs",
+  "seasong.configuration.section.seasong.common.toml": "Seasong Configs",
+  "seasong.configuration.section.seasong.common.toml.title": "Seasong Configs",
+  "seasong.configuration.items": "Item List",
+  "seasong.configuration.logDirtBlock": "Log Dirt Block",
+  "seasong.configuration.magicNumberIntroduction": "Magic Number Text",
+  "seasong.configuration.magicNumber": "Magic Number"
+}
