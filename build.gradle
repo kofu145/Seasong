@@ -28,6 +28,10 @@ sourceSets.main.resources {
 
 repositories {
     // Add here additional repositories if required by some of the dependencies below.
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+    }
 }
 
 base {
@@ -103,7 +107,7 @@ neoForge {
         // define mod <-> source bindings
         // these are used to tell the game which sources are for which mod
         // multi mod projects should define one per mod
-        "${mod_id}" {
+        "seasong" {
             sourceSet(sourceSets.main)
         }
     }
@@ -139,6 +143,7 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+    implementation "maven.modrinth:lithostitched:1.6.5-neoforge-21.1"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
