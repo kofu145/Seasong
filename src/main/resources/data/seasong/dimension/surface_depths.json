@@ -1,0 +1,20 @@
+{
+    "type": "seasong:surface_sea",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "biome": "minecraft:ocean",
+            "layers": [
+                {
+                    "block": "minecraft:barrier",
+                    "height": 1
+                },
+                {
+                    "block": "minecraft:water",
+                    "height": 240
+                }
+            ],
+            "structure_overrides": []
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "seasong:deep_sea",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "biome": "seasong:deeper_ocean",
+            "layers": [
+                {
+                    "block": "minecraft:barrier",
+                    "height": 1
+                },
+                {
+                    "block": "minecraft:water",
+                    "height": 375
+                },
+                {
+                    "block": "minecraft:barrier",
+                    "height": 5
+                }
+            ],
+            "structure_overrides": []
+        }
+    }
+}
